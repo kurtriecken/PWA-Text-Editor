@@ -45,6 +45,15 @@ module.exports = () => {
         theme_color: '#22a378',
         start_url: '/',
         publicPath: '/',
+        // screenshots: [
+        //   {
+        //     src: path.resolve('src/images/logo.png'),
+        //     sizes: "1280x720",
+        //     type: "image/png",
+        //     form_factor: "wide",
+        //     label: "Homescreen of Awesome App"
+        //   },
+        // ],
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
