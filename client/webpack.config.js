@@ -1,5 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
@@ -23,7 +23,8 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text Editor'
+        title: 'Text Editor',
+        favicon: "./favicon.ico"
       }),
 
       // Injects our custom service worker
@@ -39,10 +40,11 @@ module.exports = () => {
         name: 'Text Editor',
         short_name: 'Jate',
         description: 'Edit your text for free!',
+        favicon: "./favicon.ico",
         background_color: '#22a378',
         theme_color: '#22a378',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
