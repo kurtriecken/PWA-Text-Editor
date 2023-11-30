@@ -28,6 +28,12 @@ To use, simply type in the provided text editor area anything you wish. Our appl
 
 Even better, you may download the application to use directly from your desktop or mobile device. Simply click the install button located at the top left of your screen and you will be prompted to install the Text Editor.
 
+Once you have installed, you will have an icon on your desktop that looks like this:
+
+![Screenshot_2](./client/src/images/Screenshot_2.png)
+
+Simply open this app to have the complete functionality of our website no matter where you go!
+
 ## License
 
 [This project uses the following license: MIT](https://opensource.org/licenses/MIT)
