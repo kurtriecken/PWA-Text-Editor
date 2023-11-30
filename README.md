@@ -2,7 +2,7 @@
   
 ## Description
   
-This application is an exercise in creating a back-end to a social media site. The database will store information about users, posts (called 'thoughts'), and reactions to those posts.
+Need to write something down but don't have a pen? Use our text editor! Download the app to put the 'fun' in 'offline functionality'.
   
 ## Table of Contents
   
@@ -18,50 +18,15 @@ This application is an exercise in creating a back-end to a social media site. T
   
 ## Installation
   
-You must have node installed on your machine for this program to run. To check if you have node already installed, run the following code in your terminal:
-
-`node --version`
-
-If you see something like (but perhaps different numbers for another version)
-
-`v18.18.2`
-
-you're all set! If not, enter the following:
-
-`npm init -y`
-
-followed by 
-
-`npm i`
-
-Once you've done that, you are good to go!
+No installation is necessary! Simply follow [this link](https://pwa-text-editor-g1po.onrender.com) to be taken to the deployed application.
   
 ## Usage
   
-Because this application includes only the back-end, there is no GUI or front-end with which you will interact. As such, all you need to do in order to see the app's functionality is spin the server up:
+To use, simply type in the provided text editor area anything you wish. Our application uses client-side indexedDB storage so if you lose internet or accidentally close your browser, anything you have typed will still be there when you come back!
 
-`npm start`
+![Screenshot_1](./client/src/images/Screenshot_1.png)
 
-OR
-
-`nodemon`
-
-After your server is running, you should see the following message on your terminal:
-
-`API server running on port 3001!`
-
-To see things work, you can open your favorite API interaction tool. In the demonstration video that follows, we use Insomnia:
-
-[Video](https://watch.screencastify.com/v/XzpSMjocJykcdClBAYar)
-
-## Technologies used in development
-
-1. Node.js
-2. Express.js
-3. MongoDB
-4. Mongoose.js
-5. Insomnia (API testing)
-
+Even better, you may download the application to use directly from your desktop or mobile device. Simply click the install button located at the top left of your screen and you will be prompted to install the Text Editor.
 
 ## License
 
